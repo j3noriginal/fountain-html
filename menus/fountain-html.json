@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle fountain-html",
+        "command": "fountain-html:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "fountain-html",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "fountain-html:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
